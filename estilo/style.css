@@ -15,6 +15,86 @@
     src: url('../fontes/WorkSans-SemiBold.ttf');
 }
 
-h1 {
-    font-family: 'Worksans-b';
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+div.img-fundo {
+    background: url('../imagens/background-pattern-mobile.svg');
+    height: 30vh;
+}
+
+body {
+    background-color: hsl(275, 100%, 97%);
+}
+
+button {
+    border: none;
+    background-color: white;
+}
+
+main {
+    position: relative;
+    margin: auto;
+    margin-top: -70px;
+    background-color: white;
+    width: 420px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+header > i > img {
+  width: 23px;
+  height: auto;
+  padding-top: 5px;
+}
+
+header > h1 {
+    color: hsl(292, 42%, 14%);
+    font-size: 2em;
+    font-family: 'WorkSans-b';
+    margin-left: 20px;
+}
+
+article {
+    
+    padding: 10px;
+}
+
+article > section {
+  border-bottom: 1px solid rgba(43, 42, 42, 0.164);
+}
+
+section > button.qs1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+section > button.qs1 > h3 {
+    font-size: 1.3em;
+    color: hsl(292, 42%, 14%);
+    width: 70%;
+    text-align: justify;
+}
+
+section > button.qs1 > i {
+    width: 30%;
+    display: flex;
+    flex-flow: row-reverse nowrap;
+}
+
+section > button.qs1 > i > img {
+    padding-top: 7px;
+    width: 35px;
+    padding-right: 10px;
 }
