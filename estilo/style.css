@@ -40,9 +40,9 @@ main {
     margin: auto;
     margin-top: -70px;
     background-color: white;
-    width: 420px;
+    width: 350px;
     border-radius: 10px;
-    padding: 10px;
+    padding: 15px;
 }
 
 header {
@@ -78,23 +78,35 @@ section > button.qs1 {
     display: flex;
     align-items: center;
     width: 100%;
+    margin-bottom: 20px;
+    
 }
 
 section > button.qs1 > h3 {
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: hsl(292, 42%, 14%);
-    width: 70%;
+    width: 72%;
     text-align: justify;
 }
 
 section > button.qs1 > i {
-    width: 30%;
+    width: 28%;
     display: flex;
     flex-flow: row-reverse nowrap;
 }
 
 section > button.qs1 > i > img {
-    padding-top: 7px;
+    padding-top: 5px;
     width: 35px;
-    padding-right: 10px;
+}
+
+section > div.resp1 {
+    display: none;
+    padding-bottom: 20px;
+}
+
+section > div.resp1 > p {
+    color: rgb(90, 90, 90);
+    font-family: 'WorkSans-r';
+    font-size: 0.9em;
 }
