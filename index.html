@@ -14,20 +14,24 @@
             <h1>FAQs</h1>
         </header>
         <article>
-                <section>
-                    <button class="qs1" onclick="clicou()">
+                <section class="Q1">
+                    <div class="qs1" onclick="clicou()">
                         <h3>O que é o Frontend Mentor, e como ele pode me ajudar?</h3>
-                        <i><img src="imagens/icon-plus.svg" alt="botao +" id="btn1"></i>
-                    </button>
+                        <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn1"></i>
+                    </div>
                     <div id="resp1">
                         <p>O Frontend Mentor oferece desafios de programação realistas para ajudar desenvolvedores a aprimorar suas habilidades de programação front-end com projetos em HTML, CSS e JavaScript. É adequado para todos os níveis e ideal para a construção de portfólios.</p>
                     </div>
                 </section>
-            <div class="qs2">
-                <h3>O Frontend Mentor é gratuito?</h3>
-                <button></button>
-                <p class="resp">Sim, o Frontend Mentor oferece desafios de codificação gratuitos e premium, com a opção gratuita fornecendo acesso a uma variedade de projetos adequados para todos os níveis de habilidade.</p>
-            </div>
+            <section class="Q2">
+                <div class="qs2">
+                    <h3>O Frontend Mentor é gratuito?</h3>
+                    <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn2"></i>
+                </div>
+                <div id="resp2">
+                    <p>Sim, o Frontend Mentor oferece desafios de codificação gratuitos e premium, com a opção gratuita fornecendo acesso a uma variedade de projetos adequados para todos os níveis de habilidade.</p>
+                </div>
+            </section>
             <div class="qs3">
                 <h3>Posso usar projetos do Frontend Mentor no meu portfólio?</h3>
                 <button></button>
@@ -46,7 +50,7 @@
                 resp1.style.display = 'none'
                 btn1.src = "imagens/icon-plus.svg"
             }else {
-                resp1.style.display = 'none'
+                resp1.style.display = 'block'
                 btn1.src = "imagens/icon-minus.svg"
             }
         }
