@@ -17,9 +17,9 @@
                 <section>
                     <button class="qs1" onclick="clicou()">
                         <h3>O que é o Frontend Mentor, e como ele pode me ajudar?</h3>
-                        <i><img src="imagens/icon-plus.svg" alt="botao +"></i>
+                        <i><img src="imagens/icon-plus.svg" alt="botao +" id="btn1"></i>
                     </button>
-                    <div class="resp1">
+                    <div id="resp1">
                         <p>O Frontend Mentor oferece desafios de programação realistas para ajudar desenvolvedores a aprimorar suas habilidades de programação front-end com projetos em HTML, CSS e JavaScript. É adequado para todos os níveis e ideal para a construção de portfólios.</p>
                     </div>
                 </section>
@@ -36,9 +36,20 @@
             <div class="qs4">
                 <h3>Como posso obter ajuda se estiver preso em um desafio do Frontend Mentor?</h3>
                 <button></button>
-                <p class="resp">O melhor lugar para obter ajuda é na comunidade do Frontend Mentor no Discord. Há um canal de ajuda onde você pode tirar dúvidas e buscar suporte de outros membros da comunidade.</p>
+                <p id="resp">O melhor lugar para obter ajuda é na comunidade do Frontend Mentor no Discord. Há um canal de ajuda onde você pode tirar dúvidas e buscar suporte de outros membros da comunidade.</p>
             </div>
         </article>
     </main>
+    <script>
+        function clicou(){
+            if (resp1.style.display == 'block') {
+                resp1.style.display = 'none'
+                btn1.src = "imagens/icon-plus.svg"
+            }else {
+                resp1.style.display = 'none'
+                btn1.src = "imagens/icon-minus.svg"
+            }
+        }
+    </script>
 </body>
 </html>
