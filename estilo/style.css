@@ -102,7 +102,7 @@ section.Q1 > div#resp1 {
 }
 
 section.Q1 > div#resp1 > p {
-    color: rgb(90, 90, 90);
+    color: hsl(292, 16%, 49%);
     font-family: 'WorkSans-r';
     font-size: 0.9em;
 }
@@ -143,7 +143,7 @@ section.Q2 > div#resp2 {
 }
 
 section.Q2 > div#resp2 > p {
-    color: rgb(90, 90, 90);
+    color: hsl(292, 16%, 49%);
     font-family: 'WorkSans-r';
     font-size: 0.9em;
 }
