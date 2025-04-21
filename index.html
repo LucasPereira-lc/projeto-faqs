@@ -15,38 +15,38 @@
         </header>
         <article>
                 <section class="Q1">
-                    <div class="qs1" onclick="clicou()">
+                    <div class="qs1" onclick="clicou(this)">
                         <h3>O que é o Frontend Mentor, e como ele pode me ajudar?</h3>
-                        <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn1"></i>
+                        <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                     </div>
-                    <div id="resp1">
+                    <div class="resp1" id="resp">
                         <p>O Frontend Mentor oferece desafios de programação realistas para ajudar desenvolvedores a aprimorar suas habilidades de programação front-end com projetos em HTML, CSS e JavaScript. É adequado para todos os níveis e ideal para a construção de portfólios.</p>
                     </div>
                 </section>
             <section class="Q2">
-                <div class="qs2">
+                <div class="qs2" onclick="clicou(this)">
                     <h3>O Frontend Mentor é gratuito?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn2"></i>
+                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                <div id="resp2">
+                <div class="resp2">
                     <p>Sim, o Frontend Mentor oferece desafios de codificação gratuitos e premium, com a opção gratuita fornecendo acesso a uma variedade de projetos adequados para todos os níveis de habilidade.</p>
                 </div>
             </section>
             <section class="Q3">
-                <div class="qs3">
+                <div class="qs3" onclick="clicou(this)">
                     <h3>Posso usar projetos no meu portfólio?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn3"></i>
+                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                    <div id="resp3">
+                    <div class="resp3">
                         <p>Sim, você pode usar projetos concluídos no Frontend Mentor em seu portfólio. É uma excelente maneira de mostrar suas habilidades para potenciais empregadores!</p>
                     </div>
             </section>
             <section class="Q4">
-                <div class="qs4">
-                    <h3>Como posso obter ajuda se estiver preso em um desafio do Frontend Mentor?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" id="btn4"></i>
+                <div class="qs4" onclick="clicou(this)">
+                    <h3>Como posso obter ajuda se estiver preso em um desafio?</h3>
+                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                    <div id="resp4">
+                    <div class="resp4">
                         <p>O melhor lugar para obter ajuda é na comunidade do Frontend Mentor no Discord. Há um canal de ajuda onde você pode tirar dúvidas e buscar suporte de outros membros da comunidade.</p>
                     
                 </div>
@@ -55,12 +55,14 @@
     </main>
     <script>
         function clicou(){
-            if (resp1.style.display == 'block') {
-                resp1.style.display = 'none'
-                btn1.src = "imagens/icon-plus.svg"
+            const resp1 = btn.parentElement.nextElementSibling
+            
+            if (resp.style.display == 'block') {
+                resp.style.display = 'none'
+                btn.src = "imagens/icon-plus.svg"
             }else {
-                resp1.style.display = 'block'
-                btn1.src = "imagens/icon-minus.svg"
+                resp.style.display = 'block'
+                btn.src = "imagens/icon-minus.svg"
             }
         }
     </script>
