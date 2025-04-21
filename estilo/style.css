@@ -41,7 +41,7 @@ main {
 }
 
 header {
-    padding: 0px 20px 20px 0px;
+    padding: 0px 20px 0px 0px;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -60,170 +60,80 @@ header > h1 {
     margin-left: 20px;
 }
 
-article > section.Q1 {
-  border-bottom: 1px solid rgba(43, 42, 42, 0.164);
+article > section.Q {
+    border-bottom: 1px solid rgba(43, 42, 42, 0.164); 
 }
 
-section.Q1 > div.qs1 {
+section.Q > div.qst {
     display: flex;
     align-items: center;
     width: 100%;
     margin-bottom: 20px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
-section.Q1 > div.qs1 > h3 {
+section.Q > div.qst > h3 {
     font-family: 'WorkSans-sb';
     font-size: 1.1em;
     color: hsl(292, 42%, 14%);
-    width: 72%;
 }
 
-section.Q1 > div.qs1 > i {
-    width: 28%;
+section.Q > div.qst > i {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 20px;
 }
 
-section.Q1 > div.qs1 > i > img {
+section.Q > div.qst > i > img {
     padding-top: 5px;
     width: 30px;
 }
 
-section.Q1 > div.resp1 {
+section.Q > div.resp {
     display: none;
     padding-bottom: 20px;
 }
 
-section.Q1 > div.resp1 > p {
+section.Q > div.resp > p {
     color: hsl(292, 16%, 49%);
     font-family: 'WorkSans-r';
     font-size: 0.9em;
     width: 95%;
 }
 
-article > section.Q2 {
-    border-bottom: 1px solid rgba(43, 42, 42, 0.164);
+section.Q > div.qst > h3.h1 {
+    width: 72%;
 }
 
-section.Q2 > div.qs2 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    cursor: pointer;
-    margin-bottom: 15px;
-    margin-top: 20px;
+section.Q > div.qst > i.i1 {
+    width: 28%;
 }
 
-section.Q2 > div.qs2 > h3 {
-    font-family: 'WorkSans-sb';
-    font-size: 1.1em;
-    color: hsl(292, 42%, 14%);
+section.Q > div.qst > h3.h2 {
     width: 80%;
 }
 
-section.Q2 > div.qs2 > i {
-    display: flex;
-    flex-direction: row-reverse;
+section.Q > div.qst > i.i2 {
     width: 20%;
-    padding-right: 20px;
 }
 
-section.Q2 > div.qs2 > i > img {
-    width: 30px;
-}
-
-section.Q2 > div.resp2 {
-    display: none;
-    padding-bottom: 20px;
-}
-
-section.Q2 > div.resp2 > p {
-    color: hsl(292, 16%, 49%);
-    font-family: 'WorkSans-r';
-    font-size: 0.9em;
-    width: 95%;
-}
-
-article > section.Q3 {
-    border-bottom: 1px solid rgba(43, 42, 42, 0.164);
-}
-
-section > div.qs3 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    cursor: pointer;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-
-section > div.qs3 > h3 {
-    font-family: 'WorkSans-sb';
-    font-size: 1.1em;
-    color: hsl(292, 42%, 14%);
+section.Q > div.qst > h3.h3 {
     width: 65%;
 }
 
-section > div.qs3 > i {
-    display: flex;
-    flex-direction: row-reverse;
+section.Q > div.qst > i.i3 {
     width: 35%;
-    padding-right: 20px;
 }
 
-section > div.qs3 > i > img {
-    width: 30px;
-}
-
-section > div.resp3 {
-    display: none;
-    padding-bottom: 20px;
-}
-
-section > div.resp3 > p {
-    color: hsl(292, 16%, 49%);
-    font-family: 'WorkSans-r';
-    font-size: 0.9em;
-    width: 95%;
-}
-
-section > div.qs4 {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    cursor: pointer;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-
-section > div.qs4 > h3 {
-    font-family: 'WorkSans-sb';
-    font-size: 1.1em;
-    color: hsl(292, 42%, 14%);
+section.Q > div.qst > h3.h4 {
     width: 71%;
 }
 
-section > div.qs4 > i {
-    display: flex;
-    flex-direction: row-reverse;
+section.Q > div.qst > i.i4 {
     width: 29%;
-    padding-right: 20px;
 }
 
-section > div.qs4 > i > img {
-    width: 30px;
-}
-
-section > div.resp4 {
-    display: none;
-    padding-bottom: 20px;
-}
-
-section > div.resp4 > p {
-    color: hsl(292, 16%, 49%);
-    font-family: 'WorkSans-r';
-    font-size: 0.9em;
-    width: 95%;
+section#Q4 {
+    border: none;
 }

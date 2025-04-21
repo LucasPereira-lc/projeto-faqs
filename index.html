@@ -14,39 +14,39 @@
             <h1>FAQs</h1>
         </header>
         <article>
-                <section class="Q1">
-                    <div class="qs1" onclick="clicou(this)">
-                        <h3>O que é o Frontend Mentor, e como ele pode me ajudar?</h3>
-                        <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
+                <section class="Q">
+                    <div class="qst" onclick="clicou(this)">
+                        <h3 class="h1">O que é o Frontend Mentor, e como ele pode me ajudar?</h3>
+                        <i class="i1"><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                     </div>
-                    <div class="resp1" id="resp">
+                    <div class="resp" id="resp">
                         <p>O Frontend Mentor oferece desafios de programação realistas para ajudar desenvolvedores a aprimorar suas habilidades de programação front-end com projetos em HTML, CSS e JavaScript. É adequado para todos os níveis e ideal para a construção de portfólios.</p>
                     </div>
                 </section>
-            <section class="Q2">
-                <div class="qs2" onclick="clicou(this)">
-                    <h3>O Frontend Mentor é gratuito?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
+            <section class="Q">
+                <div class="qst" onclick="clicou(this)">
+                    <h3 class="h2">O Frontend Mentor é gratuito?</h3>
+                    <i class="i2"><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                <div class="resp2">
+                <div class="resp">
                     <p>Sim, o Frontend Mentor oferece desafios de codificação gratuitos e premium, com a opção gratuita fornecendo acesso a uma variedade de projetos adequados para todos os níveis de habilidade.</p>
                 </div>
             </section>
-            <section class="Q3">
-                <div class="qs3" onclick="clicou(this)">
-                    <h3>Posso usar projetos no meu portfólio?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
+            <section class="Q">
+                <div class="qst" onclick="clicou(this)">
+                    <h3 class="h3">Posso usar projetos no meu portfólio?</h3>
+                    <i class="i3"><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                    <div class="resp3">
+                    <div class="resp">
                         <p>Sim, você pode usar projetos concluídos no Frontend Mentor em seu portfólio. É uma excelente maneira de mostrar suas habilidades para potenciais empregadores!</p>
                     </div>
             </section>
-            <section class="Q4">
-                <div class="qs4" onclick="clicou(this)">
-                    <h3>Como posso obter ajuda se estiver preso em um desafio?</h3>
-                    <i><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
+            <section  class="Q" id="Q4">
+                <div class="qst" onclick="clicou(this)">
+                    <h3 class="h4">Como posso obter ajuda se estiver preso em um desafio?</h3>
+                    <i class="i4"><img src="imagens/icon-plus.svg" alt="botão +" class="btn"></i>
                 </div>
-                    <div class="resp4">
+                    <div class="resp">
                         <p>O melhor lugar para obter ajuda é na comunidade do Frontend Mentor no Discord. Há um canal de ajuda onde você pode tirar dúvidas e buscar suporte de outros membros da comunidade.</p>
                     
                 </div>
@@ -54,15 +54,16 @@
         </article>
     </main>
     <script>
-        function clicou(){
-            const resp1 = btn.parentElement.nextElementSibling
-            
+        function clicou(btn){
+            const resp = btn.nextElementSibling
+            const img = btn.querySelector('img')
+
             if (resp.style.display == 'block') {
                 resp.style.display = 'none'
-                btn.src = "imagens/icon-plus.svg"
+                img.src = "imagens/icon-plus.svg"
             }else {
                 resp.style.display = 'block'
-                btn.src = "imagens/icon-minus.svg"
+                img.src = "imagens/icon-minus.svg"
             }
         }
     </script>
