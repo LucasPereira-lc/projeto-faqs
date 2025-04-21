@@ -147,3 +147,46 @@ section.Q2 > div#resp2 > p {
     font-family: 'WorkSans-r';
     font-size: 0.9em;
 }
+
+article > section.Q3 {
+    border-bottom: 1px solid rgba(43, 42, 42, 0.164);
+}
+
+section > div.qs3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+section > div.qs3 > h3 {
+    font-family: 'WorkSans-sb';
+    font-size: 1.1em;
+    color: hsl(292, 42%, 14%);
+    width: 80%;
+}
+
+section > div.qs3 > i {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 20%;
+}
+
+section > div.qs3 > i > img {
+    width: 30px;
+}
+
+section > div#resp3 {
+    display: none;
+    padding-bottom: 20px;
+}
+
+section > div#resp3 > p {
+    color: hsl(292, 16%, 49%);
+    font-family: 'WorkSans-r';
+    font-size: 0.9em;
+}
+
+arti
