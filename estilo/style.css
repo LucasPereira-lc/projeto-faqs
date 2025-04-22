@@ -35,10 +35,14 @@ main {
     background-color: white;
     width: 420px;
     margin: auto;
-    margin-top: -90px;
+    margin-top: -100px;
+    margin-bottom: 40px;
     border-radius: 10px;
     padding: 25px 25px 10px 25px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.267);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 header {
@@ -61,11 +65,11 @@ header > h1 {
     margin-left: 20px;
 }
 
-article > section.Q {
+article > section.q {
     border-bottom: 1px solid rgba(43, 42, 42, 0.164); 
 }
 
-section.Q > div.qst {
+section.q > div.qst {
     display: flex;
     align-items: center;
     width: 100%;
@@ -74,68 +78,68 @@ section.Q > div.qst {
     cursor: pointer;
 }
 
-section.Q > div.qst > h3 {
+section.q > div.qst > h3 {
     font-family: 'WorkSans-sb';
     font-size: 1.1em;
     color: hsl(292, 42%, 14%);
 }
 
-section.Q > div.qst > h3:hover {
+section.q > div.qst > h3:hover {
     color: #AD28EB;
 }
 
-section.Q > div.qst > i {
+section.q > div.qst > i {
     display: flex;
     flex-direction: row-reverse;
     padding-right: 20px;
 }
 
-section.Q > div.qst > i > img {
+section.q > div.qst > i > img {
     padding-top: 5px;
     width: 30px;
 }
 
-section.Q > div.resp {
+section.q > div.resp {
     display: none;
     padding-bottom: 20px;
 }
 
-section.Q > div.resp > p {
+section.q > div.resp > p {
     color: hsl(292, 16%, 49%);
     font-family: 'WorkSans-r';
     font-size: 0.9em;
     width: 95%;
 }
 
-section.Q > div.qst > h3.h1 {
+section.q > div.qst > h3.h1 {
     width: 72%;
 }
 
-section.Q > div.qst > i.i1 {
+section.q > div.qst > i.i1 {
     width: 28%;
 }
 
-section.Q > div.qst > h3.h2 {
+section.q > div.qst > h3.h2 {
     width: 80%;
 }
 
-section.Q > div.qst > i.i2 {
+section.q > div.qst > i.i2 {
     width: 20%;
 }
 
-section.Q > div.qst > h3.h3 {
+section.q > div.qst > h3.h3 {
     width: 65%;
 }
 
-section.Q > div.qst > i.i3 {
+section.q > div.qst > i.i3 {
     width: 35%;
 }
 
-section.Q > div.qst > h3.h4 {
+section.q > div.qst > h3.h4 {
     width: 71%;
 }
 
-section.Q > div.qst > i.i4 {
+section.q > div.qst > i.i4 {
     width: 29%;
 }
 

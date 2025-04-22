@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 419px) {
+    main {
+        width: 260px;
+    }
+}
+
+@media screen and (min-width: 420px) and (max-width: 500px) {
+   main {
+    width: 350px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        width: 500px;
+    }
+
+    section.q > div.qst > h3.h1 {
+        width: 85%;
+    }
+
+    section.q > div.qst > i.i1 {
+        width: 15%;
+    }
+
+    section.q > div.qst > h3.h3 {
+        width: 90%;
+    }
+
+    section.q > div.qst > i.i3 {
+        width: 10%;
+    }
+
+    section.q > div.qst > h3.h4 {
+        width: 85%;
+    }
+
+    section.q > div.qst > i.i4 {
+        width: 15%;
+    }
+}
