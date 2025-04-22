@@ -79,6 +79,10 @@ section.Q > div.qst > h3 {
     color: hsl(292, 42%, 14%);
 }
 
+section.Q > div.qst > h3:hover {
+    color: #AD28EB;
+}
+
 section.Q > div.qst > i {
     display: flex;
     flex-direction: row-reverse;
